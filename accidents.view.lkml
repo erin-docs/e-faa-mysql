@@ -72,6 +72,20 @@ view: accidents {
     sql: ${TABLE}.event_date ;;
   }
 
+
+
+  dimension: faa_event_date {
+    type: date_raw
+    sql: ${TABLE}.event_date ;;
+  }
+
+  dimension_group: days_since_event {
+    type: duration
+    intervals: [hour, day, year]
+    sql_start: ${faa_event_date} ;;
+    sql_end: current_timestamp();;
+    }
+
   dimension: event_id {
     type: string
     sql: ${TABLE}.event_id ;;
