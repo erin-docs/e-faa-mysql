@@ -79,9 +79,34 @@ view: accidents {
     sql: ${TABLE}.event_date ;;
   }
 
-  dimension_group: days_since_event {
+  dimension_group: since_certification {
     type: duration
-    intervals: [hour, day, year]
+    intervals: [week, year]
+    sql_start: ${TABLE}.event_date ;;
+    sql_end: ${TABLE}.publication_date ;;
+    }
+
+
+
+#   dimension_group: enrolled {
+#     type: duration
+#     intervals: [week, year]
+#     sql_start: ${TABLE}.enroll_date ;;
+#     sql_end: ${TABLE}.graduation_date ;;
+#   }
+#
+
+
+  dimension_group: enrolled {
+    type: duration
+    intervals: [week, year]
+    sql_start: ${TABLE}.event_date ;;
+    sql_end: ${TABLE}.publication_date ;;
+  }
+
+  dimension_group: since_event {
+    type: duration
+    intervals: [hour, day]
     sql_start: ${faa_event_date} ;;
     sql_end: current_timestamp();;
     }
