@@ -1,5 +1,12 @@
-"accident_country" = "Pais";
 
+"accident_country" = "Country";
+
+
+// The name of this file should be the associated locale code followed by ".strings",
+// e.g. "en_US.strings"
+//
+// There is one .strings file per locale.
+//
 // Define your translated strings one line at a time like so:
 // "My Key" = "My Translation";
 // "My Other Key" = "My Other Translation";
@@ -12,4 +19,4 @@
 // Then, set your LookML label and description parameters to the desired key values.
 //
 // To choose this file as the master key list and as the one to validate against,
-// set its locale code ("es_VE") as the default_locale in the manifest file.
+// set its locale code ("en") as the default_locale in the manifest file.
