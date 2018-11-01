@@ -48,7 +48,7 @@ view: accidents {
   }
 
   dimension: country {
-    label: "country"
+    label: "Country"
     type: string
     map_layer_name: countries
     sql: ${TABLE}.country ;;
