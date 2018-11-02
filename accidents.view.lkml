@@ -198,6 +198,7 @@ view: accidents {
   }
 
   dimension: purpose_of_flight {
+    label: "flight_reason"
     type: string
     sql: ${TABLE}.purpose_of_flight ;;
   }

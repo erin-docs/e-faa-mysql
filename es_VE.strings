@@ -1,6 +1,6 @@
 "accident_country" = "Pais";
 "accident_injury_severity" = "Que destastre";
-
+"flight_reason" = "porque ir";
 
 // Define your translated strings one line at a time like so:
 // "My Key" = "My Translation";
