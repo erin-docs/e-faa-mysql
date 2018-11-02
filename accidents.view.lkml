@@ -123,7 +123,7 @@ view: accidents {
   }
 
   dimension: injury_severity {
-    label:"injury_severity"
+    label:"accident_injury_severity"
     type: string
     sql: ${TABLE}.injury_severity ;;
   }
