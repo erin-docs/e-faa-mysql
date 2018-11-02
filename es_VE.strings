@@ -1,4 +1,6 @@
 "accident_country" = "Pais";
+"injury_severity" = "Que destastre";
+
 
 // Define your translated strings one line at a time like so:
 // "My Key" = "My Translation";
