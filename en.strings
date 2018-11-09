@@ -1,5 +1,4 @@
-"Country" = "Homeland";
-"Severity of Injury" = "Dang ouch";
+"Country" = "Country";
 "Reason for Flying" = "Purpose";
-
-"Accident Number" = "Bad Times Number";
+"Severity of Injury" = "Severity of Injury";
+"Accident Number" = "Accident Number";

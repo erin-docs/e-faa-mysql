@@ -2,11 +2,31 @@ view: accidents {
   sql_table_name: flightstats.accidents ;;
 
   dimension: id {
+    label: "Identifier"
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
   }
 
+
+  dimension: purpose_of_flight {
+    label: "Reason for Flying"
+    type: string
+    sql: ${TABLE}.purpose_of_flight ;;
+  }
+
+  dimension: injury_severity {
+    label:"Severity of Injury"
+    type: string
+    sql: ${TABLE}.injury_severity ;;
+  }
+
+  dimension: country {
+    label: "Country"
+    type: string
+    map_layer_name: countries
+    sql: ${TABLE}.country ;;
+  }
   dimension: accident_number {
     label: "Accident Number"
     type: string
@@ -48,12 +68,6 @@ view: accidents {
     sql: ${TABLE}.broad_phase_of_flight ;;
   }
 
-  dimension: country {
-    label: "Country"
-    type: string
-    map_layer_name: countries
-    sql: ${TABLE}.country ;;
-  }
 
   dimension: engine_type {
     type: string
@@ -123,12 +137,6 @@ view: accidents {
     sql: ${TABLE}.far_description ;;
   }
 
-  dimension: injury_severity {
-    label:"Severity of Injury"
-    type: string
-    sql: ${TABLE}.injury_severity ;;
-  }
-
   dimension: investigation_type {
     type: string
     sql: ${TABLE}.investigation_type ;;
@@ -196,12 +204,6 @@ view: accidents {
       year
     ]
     sql: ${TABLE}.publication_date ;;
-  }
-
-  dimension: purpose_of_flight {
-    label: "flight_reason"
-    type: string
-    sql: ${TABLE}.purpose_of_flight ;;
   }
 
   dimension: registration_number {
