@@ -3,6 +3,9 @@
 "Severity of Injury" = "Dura de Accidente";
 "Accident Number" = "Numero de Accidente";
 
+
+"Identifier" = "Identificacion";
+
 // Define your translated strings one line at a time like so:
 // "My Key" = "My Translation";
 // "My Other Key" = "My Other Translation";
