@@ -8,6 +8,7 @@ view: accidents {
   }
 
   dimension: accident_number {
+    label: "Accident Number"
     type: string
     sql: ${TABLE}.accident_number ;;
   }
@@ -48,7 +49,7 @@ view: accidents {
   }
 
   dimension: country {
-    label: "accident_country"
+    label: "Country"
     type: string
     map_layer_name: countries
     sql: ${TABLE}.country ;;
@@ -123,7 +124,7 @@ view: accidents {
   }
 
   dimension: injury_severity {
-    label:"accident_injury_severity"
+    label:"Severity of Injury"
     type: string
     sql: ${TABLE}.injury_severity ;;
   }

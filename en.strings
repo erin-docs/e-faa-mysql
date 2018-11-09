@@ -1,3 +1,5 @@
-"accident_country" = "Homeland";
-"accident_injury_severity" = "Dang ouch";
-"flight_reason" = "why god";
+"Country" = "Homeland";
+"Severity of Injury" = "Dang ouch";
+"Reason for Flying" = "Purpose";
+
+"Accident Number" = "Bad Times Number";
