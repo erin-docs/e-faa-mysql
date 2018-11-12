@@ -10,7 +10,7 @@ view: flights {
   }
 
   dimension: air_carrier {
-    label: "carrier"
+    label: "airline"
     type: string
     sql: ${TABLE}.air_carrier ;;
   }
@@ -27,6 +27,13 @@ view: flights {
     type: string
     sql: ${TABLE}.number_of_engines ;;
   }
+
+  dimension: location {
+    type: string
+    sql: ${TABLE}.location ;;
+  }
+
+
 
   dimension: purpose_of_flight {
     label: "Reason for Flying"
@@ -154,11 +161,6 @@ view: flights {
   dimension: latitude {
     type: string
     sql: ${TABLE}.latitude ;;
-  }
-
-  dimension: location {
-    type: string
-    sql: ${TABLE}.location ;;
   }
 
   dimension: longitude {
