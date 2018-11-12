@@ -1,4 +1,5 @@
 "flight_info" = "Flights";
 "id" = "Identifier";
-"number_engines" = "Number of Engines";
+"airline" = "Air Carrier";
 "country" = "Country";
+"number_engines" = "Number of Engines";

@@ -1,5 +1,5 @@
-"Flights" = "Vuelos";
-"Identifier" = "Identificador";
-"Number of Engines" = "Número de Motores";
-"Air Carrier" = "Aerolínea";
-"Country" = "País";
+"flight_info" = "Vuelos";
+"id" = "Identificador";
+"airline" = "Aerolínea";
+"country" = "País";
+"number_engines" = "Número de Motores";

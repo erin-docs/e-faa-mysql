@@ -10,20 +10,20 @@ view: flights {
   }
 
   dimension: air_carrier {
-    label: "Air Carrier"
+    label: "carrier"
     type: string
     sql: ${TABLE}.air_carrier ;;
   }
 
   dimension: country {
-    label: "Country"
+    label: "country"
     type: string
     map_layer_name: countries
     sql: ${TABLE}.country ;;
   }
 
   dimension: number_of_engines {
-    label: "Number of Engines"
+    label: "number_of_engines"
     type: string
     sql: ${TABLE}.number_of_engines ;;
   }
