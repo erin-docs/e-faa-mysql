@@ -10,7 +10,7 @@ datagroup: e_faa_mysql_default_datagroup {
 
 persist_with: e_faa_mysql_default_datagroup
 
-explore: accidents {}
+explore: flights {}
 
 explore: aircraft {
   join: aircraft_types {

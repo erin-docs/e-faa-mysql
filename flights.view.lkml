@@ -1,4 +1,4 @@
-view: accidents {
+view: flights {
   label: "Flights"
   sql_table_name: flightstats.accidents ;;
 
