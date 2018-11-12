@@ -9,20 +9,24 @@ view: flights {
     sql: ${TABLE}.id ;;
   }
 
-
-  dimension: number_of_engines {
-    label: "Number of Engines"
-    type: string
-    sql: ${TABLE}.number_of_engines ;;
-  }
-
-
   dimension: air_carrier {
     label: "Air Carrier"
     type: string
     sql: ${TABLE}.air_carrier ;;
   }
 
+  dimension: country {
+    label: "Country"
+    type: string
+    map_layer_name: countries
+    sql: ${TABLE}.country ;;
+  }
+
+  dimension: number_of_engines {
+    label: "Number of Engines"
+    type: string
+    sql: ${TABLE}.number_of_engines ;;
+  }
 
   dimension: purpose_of_flight {
     label: "Reason for Flying"
@@ -36,12 +40,6 @@ view: flights {
     sql: ${TABLE}.injury_severity ;;
   }
 
-  dimension: country {
-    label: "Country"
-    type: string
-    map_layer_name: countries
-    sql: ${TABLE}.country ;;
-  }
   dimension: accident_number {
     label: "Accident Number"
     type: string
