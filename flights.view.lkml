@@ -1,9 +1,9 @@
 view: flights {
-  label: "Flights"
+  label: "flight_info"
   sql_table_name: flightstats.accidents ;;
 
   dimension: id {
-    label: "Identifier"
+    label: "id"
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;

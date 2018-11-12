@@ -1,4 +1,4 @@
-"Flights" = "Flights";
-"Identifier" = "Identifier";
-"Number of Engines" = "Number of Engines";
-//"Country" = "Country";
+"flight_info" = "Flights";
+"id" = "Identifier";
+"number_engines" = "Number of Engines";
+"country" = "Country";
