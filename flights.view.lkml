@@ -17,6 +17,7 @@ view: flights {
 
   dimension: country {
     label: "country"
+    description: "country_of_departure"
     type: string
     map_layer_name: countries
     sql: ${TABLE}.country ;;
