@@ -1,4 +1,5 @@
 view: accidents {
+  label: "Flights"
   sql_table_name: flightstats.accidents ;;
 
   dimension: id {
@@ -6,6 +7,20 @@ view: accidents {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+  }
+
+
+  dimension: number_of_engines {
+    label: "Number of Engines"
+    type: string
+    sql: ${TABLE}.number_of_engines ;;
+  }
+
+
+  dimension: air_carrier {
+    label: "Air Carrier"
+    type: string
+    sql: ${TABLE}.air_carrier ;;
   }
 
 
@@ -33,10 +48,6 @@ view: accidents {
     sql: ${TABLE}.accident_number ;;
   }
 
-  dimension: air_carrier {
-    type: string
-    sql: ${TABLE}.air_carrier ;;
-  }
 
   dimension: aircraft_category {
     type: string
@@ -165,11 +176,6 @@ view: accidents {
   dimension: model {
     type: string
     sql: ${TABLE}.model ;;
-  }
-
-  dimension: number_of_engines {
-    type: string
-    sql: ${TABLE}.number_of_engines ;;
   }
 
   dimension: number_of_fatalities {

@@ -1,5 +1,4 @@
-"Country" = "Country";
-"Reason for Flying" = "Purpose";
-"Severity of Injury" = "Severity of Injury";
-"Accident Number" = "Accident Number";
 "Identifier" = "Identifier";
+"Number of Engines" = "Number of Engines";
+"Air Carrier" = "Air Carrier";
+"Country" = "Country";
