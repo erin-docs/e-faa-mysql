@@ -4,3 +4,11 @@
 "country" = "País";
 "country_of_departure" = "País de Partida";
 "number_of_engines" = "Número de Motores";
+
+
+
+
+"from_us" = "¿De Los Estados Unidos?";
+
+"yes" = "sí";
+"no" = "no";

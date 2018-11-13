@@ -36,6 +36,18 @@ view: flights {
 
 
 
+  dimension: from_US {
+    label: "from_us"
+    type: yesno
+    sql: CASE
+         WHEN ${TABLE}.country = "United States" THEN "{{ _localization['yes'] }}"
+         ELSE "{{ _localization['no'] }}"
+       END;;
+  }
+
+
+
+
   dimension: purpose_of_flight {
     label: "Reason for Flying"
     type: string

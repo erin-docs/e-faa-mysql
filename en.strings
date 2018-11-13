@@ -3,3 +3,10 @@
 "airline" = "Air Carrier";
 "country_of_departure" = "Country of Departure";
 "number_of_engines" = "Number of Engines";
+
+
+
+
+"from_us" = "From the US?";
+"yes" = "yes";
+"no" = "no";
