@@ -38,7 +38,7 @@ view: flights {
 
   dimension: from_US {
     label: "from_us"
-    type: yesno
+    type: string
     sql: CASE
          WHEN ${TABLE}.country = "United States" THEN "{{ _localization['yes'] }}"
          ELSE "{{ _localization['no'] }}"
