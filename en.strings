@@ -6,7 +6,6 @@
 
 
 
-
 "from_us" = "From the US?";
-"yes" = "yes";
-"no" = "no";
+"domestic" = "Domestic";
+"international" = "International";

@@ -10,5 +10,5 @@
 
 "from_us" = "¿De Los Estados Unidos?";
 
-"yes" = "sí";
-"no" = "no";
+"domestic" = "Nacional";
+"international" = "Internacional";
