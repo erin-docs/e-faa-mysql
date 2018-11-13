@@ -2,5 +2,5 @@
 "id" = "Identificador";
 "airline" = "Aerolínea";
 "country" = "País";
-//"country_of_departure" = "País de Partida";
+"country_of_departure" = "País de Partida";
 "number_engines" = "Número de Motores";
