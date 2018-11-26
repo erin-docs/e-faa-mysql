@@ -7,6 +7,7 @@ view: carriers {
   }
 
   dimension: name {
+    suggest_dimension: nickname
     type: string
     sql: ${TABLE}.name ;;
   }
