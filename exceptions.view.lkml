@@ -1,5 +1,7 @@
+include: "flights.view.lkml"
 view: exceptions {
   sql_table_name: flightstats.exceptions ;;
+  extends: [flights]
 
   dimension: bad_tail_num {
     type: string
