@@ -5,6 +5,8 @@
 "country_of_departure" = "Country of Departure";
 "number_of_engines" = "Number of Engines";
 
+"Localizeddashboard" = "Localized Dashboard";
+"Localizedlook" = "Localized Look";
 
 
 "from_us" = "From the US?";

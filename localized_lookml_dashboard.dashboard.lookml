@@ -1,8 +1,8 @@
 - dashboard: localized_dashboard
-  title: Localized Dashboard
+  title: Localizeddashboard
   layout: newspaper
   elements:
-  - title: Localized Look
+  - title: Localizedlook
     name: Localized Look
     model: e_faa_mysql
     explore: extended_explore
