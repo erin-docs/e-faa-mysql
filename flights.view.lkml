@@ -104,6 +104,7 @@ view: flights {
   }
 
   dimension_group: event {
+    group_item_label: ""
     type: time
     timeframes: [
       raw,

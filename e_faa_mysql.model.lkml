@@ -2,7 +2,7 @@ connection: "faa"
 
 # include all the views
 include: "*.view"
-include: "*.dashboard.lookml"
+#include: "*.dashboard.lookml"
 
 datagroup: e_faa_mysql_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -18,10 +18,10 @@ explore: flights {
    }
 
 
-explore: extended_explore {
-  extends: [flights]
-  fields: [flights.number_of_engines,flights.event_date]
-}
+# explore: extended_explore {
+#   extends: [flights]
+#   fields: [flights.number_of_engines,flights.event_date]
+# }
 
 #
 
