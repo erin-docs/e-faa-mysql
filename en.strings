@@ -1,9 +1,12 @@
 "flight_info" = "Flights";
 "id" = "Identifier";
 "airline" = "Air Carrier";
-"country" = "Country";
 "country_of_departure" = "Country of Departure";
 "number_of_engines" = "Number of Engines";
+
+// "location" = "Location"; <-- In the localization Docs, I use location as an example of something that doesn't have a label and so isn't localized
+// "country" = "Country"; <-- In our localization docs, I use this as an example of something that isn't defined in the default strings file and so doesn't get localized
+
 
 "Localizeddashboard" = "Localized Dashboard";
 "Localizedlook" = "Localized Look";

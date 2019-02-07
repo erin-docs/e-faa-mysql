@@ -13,7 +13,7 @@ persist_with: e_faa_mysql_default_datagroup
 
 explore: flights {
   view_name: flights
-  view_label: "Flight Information"
+  view_label: "flight_info"
 # extension: required
    }
 

@@ -30,6 +30,7 @@ view: flights {
   }
 
   dimension: location {
+  #  label: "location"  <-- In the localization Docs, I use this as an example of something that doesn't have a label and so isn't localized
     type: string
     sql: ${TABLE}.location ;;
   }

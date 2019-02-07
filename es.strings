@@ -5,6 +5,10 @@
 "country_of_departure" = "País de Partida";
 "number_of_engines" = "Número de Motores";
 
+
+// "location" = "Destino"; <-- In the localization Docs, I use location as an example of something that doesn't have a label and so isn't localized
+
+
 "Localizeddashboard" = "Dashboard Localizado";
 "Localizedlook" = "Localized Localizado";
 
