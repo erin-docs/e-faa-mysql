@@ -12,6 +12,12 @@
 "Localizeddashboard" = "Dashboard Localizado";
 "Localizedlook" = "Localized Localizado";
 
+"GPS Coordinates" = "GPS Información";
+"GPS Latitude" = "Latitud GPS";
+"GPS Longitude" = "Longitud del GPS";
+
+
+
 
 
 "from_us" = "¿De Los Estados Unidos?";

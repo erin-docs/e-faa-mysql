@@ -105,7 +105,6 @@ view: flights {
   }
 
   dimension_group: event {
-    group_item_label: ""
     type: time
     timeframes: [
       raw,
@@ -122,6 +121,7 @@ view: flights {
 
 
   dimension: faa_event_date {
+    group_item_label: "test"
     type: date_raw
     sql: ${TABLE}.event_date ;;
   }
@@ -174,11 +174,14 @@ view: flights {
   }
 
   dimension: latitude {
+    group_label: "GPS Coordinates"
+    group_item_label: "GPS latitude"
     type: string
     sql: ${TABLE}.latitude ;;
   }
 
   dimension: longitude {
+    group_label: "GPS Coordinates"
     type: string
     sql: ${TABLE}.longitude ;;
   }
