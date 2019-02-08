@@ -13,6 +13,8 @@
 
 
 "GPS Coordinates" = "GPS Coordinates";
+"GPS Latitude" = "GPS Latitude";
+"GPS Longitude" = "GPS Longitude";
 
 "from_us" = "From the US?";
 "domestic" = "Domestic";
