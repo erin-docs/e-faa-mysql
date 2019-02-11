@@ -122,7 +122,6 @@ view: flights {
 
 
   dimension: faa_event_date {
-    group_item_label: "test"
     type: date_raw
     sql: ${TABLE}.event_date ;;
   }
@@ -176,7 +175,8 @@ view: flights {
 
   dimension: latitude {
     group_label: "GPS Coordinates"
-    group_item_label: "GPS Latitude"
+    label: "Just Label"
+    group_item_label: "group item label"
     type: string
     sql: ${TABLE}.latitude ;;
   }
