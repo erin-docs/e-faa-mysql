@@ -8,6 +8,7 @@
 
 // "location" = "Destino"; <-- In the localization Docs, I use location as an example of something that doesn't have a label and so isn't localized
 
+"publication" = "Publicación";
 
 "Localizeddashboard" = "Dashboard Localizado";
 "Localizedlook" = "Look Localizado";
