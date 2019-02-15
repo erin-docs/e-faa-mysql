@@ -8,6 +8,8 @@
 // "country" = "Country"; <-- In our localization docs, I use this as an example of something that isn't defined in the default strings file and so doesn't get localized
 
 "publication" = "Publication";
+"Group Label for DGroup" = "Group Label for DGroup in English";
+
 
 "Localizeddashboard" = "Localized Dashboard";
 "Localizedlook" = "Localized Look";
