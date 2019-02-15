@@ -219,7 +219,7 @@ view: flights {
 
   dimension_group: publication {
     label: "publication"
-    group_label: "Group Label for DGroup"
+    #group_label: "Group Label for DGroup"
     type: time
     timeframes: [
       raw,
