@@ -176,7 +176,7 @@ view: flights {
   dimension: latitude {
     group_label: "GPS Coordinates"
     label: "Just Label"
-    group_item_label: "group item label"
+    #group_item_label: "group item label"
     type: string
     sql: ${TABLE}.latitude ;;
   }
