@@ -17,6 +17,9 @@ explore: flights {
 # extension: required
    }
 
+explore: testing_extends {
+  view_name: extending_view
+}
 
 # explore: extended_explore {
 #   extends: [flights]
