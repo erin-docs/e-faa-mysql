@@ -1,4 +1,5 @@
 - dashboard: localized_dashboard
+  description: Localizeddashboard
   title: Localizeddashboard
   layout: newspaper
   elements:
