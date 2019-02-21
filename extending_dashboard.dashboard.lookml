@@ -3,10 +3,12 @@
   title: Extending Dashboard
   elements:
   - name: Localized Look
-    title: extended look title
+    title: Localizedlook
+  - title: Number of Engines
+    name: Number of Engines
     model: e_faa_mysql
     explore: flights
-    type: table
+    type: looker_bar
     fields:
     - flights.air_carrier
     - flights.number_of_engines
