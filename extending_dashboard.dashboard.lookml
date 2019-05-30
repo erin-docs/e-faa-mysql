@@ -4,7 +4,6 @@
   elements:
   - name: Localized Look
     title: extended look title
-  - title: Number of Engines English
     name: Number of Engines
     model: e_faa_mysql
     explore: flights
