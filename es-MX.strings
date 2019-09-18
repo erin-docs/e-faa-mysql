@@ -11,6 +11,7 @@
 
 "Localizeddashboard" = "Dashboard Localizado";
 "Localizedlook" = "Look Localizado";
+"FilteredTile" = "Vuelos Nacional o Internacional";
 
 "GPS Coordinates" = "GPS Información";
 "GPS Latitude" = "Latitud GPS";
@@ -25,3 +26,4 @@
 
 "domestic" = "Nacional";
 "international" = "Internacional";
+"continental-en" = "Continental Airlines";

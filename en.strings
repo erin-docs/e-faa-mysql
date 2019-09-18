@@ -6,10 +6,12 @@
 
 // "location" = "Location"; <-- In the localization Docs, I use location as an example of something that doesn't have a label and so isn't localized
 // "country" = "Country"; <-- In our localization docs, I use this as an example of something that isn't defined in the default strings file and so doesn't get localized
+"country" = "Country";
 
 
 "Localizeddashboard" = "Localized Dashboard";
 "Localizedlook" = "Localized Look";
+"FilteredTile" = "Domestic or International Flights";
 
 "Event" = "Event";
 
@@ -20,3 +22,4 @@
 "from_us" = "From the US?";
 "domestic" = "Domestic";
 "international" = "International";
+"continental-en" = "Continental Airlines";
