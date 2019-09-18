@@ -1,13 +1,13 @@
-- dashboard: localized_dashboard
-  description: Localizeddashboard
-  title: Localizeddashboard
-  layout: newspaper
+- dashboard: extending_dashboard
+  extends: localized_dashboard
+  title: Extending Dashboard Title
   elements:
   - name: Localized Look
-    title: Localizedlook
+    title: extended look title
+    name: Number of Engines
     model: e_faa_mysql
     explore: flights
-    type: table
+    type: looker_bar
     fields:
     - flights.air_carrier
     - flights.number_of_engines
@@ -23,7 +23,6 @@
     limit: 5
     query_timezone: America/Los_Angeles
     series_types: {}
-    row: 0
-    col: 0
-    width: 8
+    listen: {}
+    width: 19
     height: 6

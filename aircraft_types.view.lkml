@@ -12,6 +12,8 @@ view: aircraft_types {
     sql: ${TABLE}.description ;;
   }
 
+
+
   measure: count {
     type: count
     drill_fields: [aircraft_type_id, aircraft.count, aircraft_models.count]

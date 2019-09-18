@@ -36,6 +36,17 @@ view: flights {
   }
 
 
+#
+#   dimension: from_US {
+#     label: "from_us"
+#     type: string
+#     sql: CASE
+#          WHEN ${TABLE}.country = "United States" THEN '{{ _localization["domestic"] }}'
+#          ELSE '{{ _localization["international"] }}'
+#        END;;
+#   }
+
+
 
   dimension: from_US {
     label: "from_us"
@@ -176,7 +187,7 @@ view: flights {
   dimension: latitude {
     group_label: "GPS Coordinates"
     label: "Just Label"
-    group_item_label: "group item label"
+    #group_item_label: "group item label"
     type: string
     sql: ${TABLE}.latitude ;;
   }
@@ -218,6 +229,8 @@ view: flights {
   }
 
   dimension_group: publication {
+    label: "publication"
+    #group_label: "Group Label for DGroup"
     type: time
     timeframes: [
       raw,

@@ -13,15 +13,18 @@ persist_with: e_faa_mysql_default_datagroup
 
 explore: flights {
   view_name: flights
-  view_label: "flight_info"
+#  view_label: "flight_info"
 # extension: required
    }
 
 
-# explore: extended_explore {
-#   extends: [flights]
-#   fields: [flights.number_of_engines,flights.event_date]
-# }
+explore: testing_extends {
+  view_name: extending_view
+}
+explore: extended_explore {
+  extends: [flights]
+ # fields: [flights.number_of_engines,flights.event_date]
+  }
 
 #
 
