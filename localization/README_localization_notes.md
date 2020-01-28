@@ -1,5 +1,10 @@
 # Readme Localization Notes
 
+Example query: [https://docsexamples.dev.looker.com/explore/e_faa_mysql/flights?toggle=fil&qid=dwS6VKUFc7cNFJnItlKKCc](https://docsexamples.dev.looker.com/explore/e_faa_mysql/flights?toggle=fil&qid=dwS6VKUFc7cNFJnItlKKCc)
+
+Sudo as this user to see the "espanol" version: [https://docsexamples.dev.looker.com/admin/users/80/edit](https://docsexamples.dev.looker.com/admin/users/80/edit)
+
+
 The JSON strings files don't allow comments, so here are my notes about how model localization is set up for this project:
 
 ## Comments from es.strings file
