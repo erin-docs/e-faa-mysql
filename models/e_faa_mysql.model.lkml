@@ -1,8 +1,8 @@
 connection: "faa"
 
 # include all the views
-include: "*.view"
-include: "*.dashboard.lookml"
+include: "/views/*.view"
+include: "/dashboards/*.dashboard.lookml"
 
 datagroup: e_faa_mysql_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
