@@ -1,0 +1,21 @@
+{
+"flight_info" : "Flight Info",
+"id" : "Identifier",
+"airline" : "Air Carrier",
+"country_of_departure" : "Country of Departure",
+"number_of_engines" : "Number of Engines",
+"extended look title" : "extended look title english",
+"Extending Dashboard" : "Extending Dashboard English",
+"Extending Dashboard Title" : "Extending Dashboard Title English",
+"Localizeddashboard" : "Localized Dashboard",
+"Localizedlook" : "Localized Look",
+"FilteredTile" : "Domestic or International Flights",
+"Event" : "Event",
+"GPS Coordinates" : "GPS Coordinates",
+"GPS Latitude" : "GPS Latitude",
+"GPS Longitude" : "GPS Longitude",
+"from_us" : "From the US?",
+"domestic" : "Domestic",
+"international" : "International",
+"continental-en" : "Continental Airlines"
+}
