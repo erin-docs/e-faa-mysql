@@ -17,6 +17,12 @@ explore: flights {
 # extension: required
    }
 
+explore: flights_enhanced {
+  view_name: flights
+#  view_label: "flight_info"
+# extension: required
+}
+
 
 explore: testing_extends {
   view_name: extending_view
