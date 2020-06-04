@@ -19,7 +19,7 @@
 "GPS Longitude" : "Longitud del GPS",
 "Event" : "Negocioco",
 "from_us" : "¿De Los Estados Unidos?",
-"domestic" : "Nacional",
+"domestic_flight" : "Nacional",
 "international" : "Internacional",
 "continental-en" : "Continental Airlines"
 }
