@@ -9,6 +9,21 @@ view: flights {
     sql: ${TABLE}.id ;;
   }
 
+  filter: new_filter_test{
+    type: date
+  }
+
+  dimension: filter_start{
+    type: date
+    sql: {% date_start new_filter_test %} ;;
+  }
+
+  dimension: filter_end{
+    type: date
+    sql: {% date_end new_filter_test %} ;;
+  }
+
+
   dimension: air_carrier {
     label: "airline"
     type: string
